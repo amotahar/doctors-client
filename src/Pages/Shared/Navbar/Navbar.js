@@ -7,11 +7,11 @@ const Navbar = () => {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/appointment">Appointment</Link></li>
           <li><Link to="/about">About</Link></li>
-          <li><Link to="/login">Login</Link></li>
           <li><Link to="/reviews">Reviews</Link></li>
+          <li><Link to="/login">Login</Link></li>
   </React.Fragment> 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 flex justify-between">
     <div className="navbar-start">
       <div className="dropdown">
         <label tabIndex={0} className="btn btn-ghost lg:hidden">
