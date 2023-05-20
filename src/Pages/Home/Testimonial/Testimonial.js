@@ -10,7 +10,7 @@ const Testimonial = () => {
     {
       _id: 1,
       name: "Winson Herry",
-      img: {people1},
+      img: people1,
       review:
         "It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content",
       location: "california",
@@ -18,18 +18,18 @@ const Testimonial = () => {
     {
       _id: 2,
       name: "Winson Walton",
-      img: {people2},
+      img: people2,
       review:
         "It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content",
-      location: "Washington",
+      location: "california",
     },
     {
       _id: 3,
       name: "Winson Chigumbura",
-      img: {people3},
+      img: people3,
       review:
         "It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content",
-      location: "Jacksonheight",
+      location: "california",
     },
   ];
   return (
